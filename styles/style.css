@@ -1,0 +1,182 @@
+        * {
+            text-decoration: none;
+        }
+        
+        body {
+            padding: 0;
+            background-position: cover;
+        }
+        
+        .navbar {
+            background: #ad5389;
+            background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+            background: linear-gradient(to right, #3c1053, #ad5389);
+        }
+        
+        #big {
+            text-decoration-color: black;
+            font-size: 30px;
+        }
+        
+        .navbar a {
+            float: left;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+        .jumbotron {
+            height: 300px;
+            padding: 40px;
+            background-color: rgb(207, 189, 216);
+            ;
+        }
+        
+        .flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+        .btn {
+            border: none;
+            background: #ad5389;
+            background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+            background: linear-gradient(to right, #3c1053, #ad5389);
+        }
+        
+        .btn-center {
+            text-align: center;
+            align-items: center;
+        }
+        
+        .menu-btn {
+            border: none;
+            font-size: 18px;
+            margin: 20px 10px;
+            background: linear-gradient(to right, #3c1053, #ad5389);
+            transition: .3s;
+        }
+        
+        .fb-btn {
+            height: 50px;
+            width: 130px;
+            margin: 30px;
+        }
+        /* Float four columns side by side */
+        
+        .coloumn {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+        /* Remove extra left and right margins, due to padding */
+        
+        .row {
+            margin: 0 -5px;
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: flex;
+            clear: both;
+        }
+        
+        h4 {
+            margin: 10px;
+        }
+        
+        .card-t {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+        
+        .container-c {
+            display: flex;
+            margin: 30px;
+            padding: 20px;
+            height: 250px;
+        }
+        
+        .menu-card {
+            padding: 10px 20px;
+            height: 600px;
+            width: 490px;
+        }
+        
+        .submit-center {
+            display: flex;
+            justify-content: center;
+            margin: 20px 20px;
+        }
+        
+        .menu-items {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        
+        .menu-1,
+        .menu-2 {
+            margin: 0px 10px;
+            padding: 15px;
+        }
+        
+        .checkbox,
+        .d-menu {
+            padding: 5px 10px;
+        }
+        
+        .page-footer {
+            margin: 30px 0px 0px;
+        }
+        
+        .contact-footer {
+            background-color: rgb(245, 120, 245);
+            color: white;
+            text-align: center;
+            height: 20px;
+        }
+        /* fb css */
+        
+        .fb-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px
+        }
+        
+        .food-fb {
+            width: 400px;
+            border: 1px solid black;
+        }
+        
+        .feedback-form {
+            margin: 5px;
+        }
+        
+        p {
+            font-size: 18px;
+        }
+        
+        .text-fb {
+            margin: 20px;
+            text-align: center;
+        }
+        
+        table {
+            width: 80%;
+            border: 1px solid black;
+            background: cornsilk;
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+        }
